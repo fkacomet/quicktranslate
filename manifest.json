@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Google Translate Launcher",
+  "name": "translater button",
   "version": "1.0",
-  "description": "Select text, click button, get translation. No bullshit.",
+  "description": "select text, press button, get translated text back",
   
   "permissions": [
     "activeTab"
