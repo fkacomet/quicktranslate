@@ -1,4 +1,3 @@
-// Create the fucking button
 const button = document.createElement('button');
 button.innerHTML = 'Translate';
 button.id = 'translate-launcher';
@@ -21,7 +20,7 @@ document.addEventListener('mousedown', (e) => {
   }
 });
 
-// THE ACTUAL FUNCTION THAT FUCKING WORKS
+
 button.addEventListener('click', (e) => {
   e.stopPropagation();
   const selection = window.getSelection().toString().trim();
@@ -41,4 +40,5 @@ function showButton(e) {
 
 function hideButton() {
   button.style.display = 'none';
+
 }
