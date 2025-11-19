@@ -1,0 +1,22 @@
+#translate-launcher {
+  position: absolute;
+  z-index: 10000;
+  background: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  display: none;
+}
+
+#translate-launcher:hover {
+  background: #3367d6;
+}
+
+#translate-launcher:active {
+  transform: translateY(1px);
+}
